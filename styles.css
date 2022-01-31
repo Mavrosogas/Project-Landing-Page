@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    flex-flow: row nowrap;
+}
