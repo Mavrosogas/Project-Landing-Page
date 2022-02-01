@@ -1,7 +1,7 @@
 body{
     display: flex;
     margin: 0;
-    min-height: 100vh;
+    min-width: 100vh;
     flex-flow: column;
     justify-content: space-between;
 }
@@ -9,8 +9,101 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight:bolder;
+    color: #f9faf8;
 }
 
 ul{
+    display: flex;
     flex-flow: row nowrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 5px;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainText{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.secondaryText , .footer{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.footer , .hero , .header{
+    background-color: #1f2937;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* fix visuals */
+button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.information{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.informationContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoteFrom{
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.action{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionBox{
+    display: flex;
+    justify-content: space-between;
 }
